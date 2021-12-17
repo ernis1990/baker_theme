@@ -12,7 +12,7 @@ html {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/Uzduotis/img/Page1/firstCover.png");
+    url("img/Page1/firstCover.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,24 +45,23 @@ html {
 }
 @font-face {
   font-family: "scriptina";
-  src: url("/Uzduotis/Fonts/scriptina.regular.ttf") format("truetype");
+  src: url("Fonts/scriptina.regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "playfair";
-  src: url("/Uzduotis/Fonts/playfairdisplay-bold.ttf") format("truetype");
+  src: url("Fonts/playfairdisplay-bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Alegreya-Bold";
-  src: url("/Uzduotis/Fonts/alegreya-bold.ttf") format("truetype");
+  src: url("Fonts/alegreya-bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "ProximaNova-Regular";
-  src: url("/Uzduotis/Fonts/FontsFree-Net-ProximaNova-Regular.ttf")
-    format("truetype");
+  src: url("Fonts/FontsFree-Net-ProximaNova-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Alegreya-Regular";
-  src: url("/Uzduotis/Fonts/Alegreya-Regular.ttf") format("truetype");
+  src: url("Fonts/Alegreya-Regular.ttf") format("truetype");
 }
 .logo {
   padding-left: 3.7rem;
@@ -111,7 +110,7 @@ html {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: url("/Uzduotis/img/Page2/page2background.png");
+  background: url("img/Page2/page2background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -277,7 +276,7 @@ html {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: url("/Uzduotis/img/Page3/page3cover.png");
+  background: url("img/Page3/page3cover.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -297,7 +296,7 @@ html {
   display: flex;
   width: 60%;
   background: rgb(255, 255, 255);
-  background-image: url(/Uzduotis/img/Page3/Vektor-millhouse.png);
+  background-image: url(img/Page3/Vektor-millhouse.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   flex-direction: column;
@@ -347,7 +346,7 @@ html {
   position: absolute;
   right: -12%;
   top: -6%;
-  background-image: url(/Uzduotis/img/Page3/Vektor.png);
+  background-image: url(img/Page3/Vektor.png);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -373,7 +372,7 @@ html {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background: url("/Uzduotis/img//Page4/page4cover.png");
+  background: url("img//Page4/page4cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 25% 45%;
@@ -429,7 +428,7 @@ html {
   outline-offset: -15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-image: url(/Uzduotis/img/Page4/Vektor-minipage.png);
+  background-image: url(img/Page4/Vektor-minipage.png);
   background-repeat: no-repeat;
   background-position: 900% 110%;
 }
@@ -561,7 +560,7 @@ html {
   align-items: center;
 }
 .page5main_content_right_img_1 {
-  background-image: url(/Uzduotis/img/Page5/page5img.png);
+  background-image: url(img/Page5/page5img.png);
   width: 90%;
   height: 90%;
   position: relative;
