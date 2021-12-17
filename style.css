@@ -1,0 +1,708 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+}
+.page1main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/Uzduotis/img/Page1/firstCover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  background-color: rgba(82, 73, 73, 0.6);
+  width: 100%;
+  height: 8vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  padding-right: 35px;
+  color: rgb(238, 235, 228);
+}
+
+.socialMedia img {
+  padding-right: 3.5rem;
+}
+.socialMedia {
+  padding-right: 3.7rem;
+}
+@font-face {
+  font-family: "scriptina";
+  src: url("/Uzduotis/Fonts/scriptina.regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "playfair";
+  src: url("/Uzduotis/Fonts/playfairdisplay-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alegreya-Bold";
+  src: url("/Uzduotis/Fonts/alegreya-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("/Uzduotis/Fonts/FontsFree-Net-ProximaNova-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Alegreya-Regular";
+  src: url("/Uzduotis/Fonts/Alegreya-Regular.ttf") format("truetype");
+}
+.logo {
+  padding-left: 3.7rem;
+  color: rgb(238, 235, 228);
+  font-family: scriptina;
+  letter-spacing: 0.8rem;
+}
+.page1content {
+  margin: auto;
+  width: 70%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pastryNote h1 {
+  color: rgb(255, 255, 255);
+  font-family: playfair;
+  font-size: 650%;
+  letter-spacing: 5px;
+  margin-top: -15%;
+  text-align: center;
+}
+.ourPhrase {
+  width: 80%;
+  color: rgb(220, 217, 216);
+  font-size: 200%;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 10%;
+}
+.menuButton {
+  padding-top: 7%;
+}
+.menuButton button {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-style: none;
+  font-size: 100%;
+  padding: 15px 30px 15px 30px;
+}
+.page2main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("/Uzduotis/img/Page2/page2background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pageBottomLogo {
+  position: absolute;
+}
+.bottomLogo1 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+}
+.bottomLogo2 {
+  text-align: center;
+  position: absolute;
+}
+.bottomLogoDiv {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+}
+.page2content {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+.page2contetLeft {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.page2contentRight {
+  display: flex;
+  width: 90%;
+  height: 100%;
+}
+.page2contetLeft_name h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #56534c;
+  font-family: "Alegreya-Bold";
+}
+.page2contetLeft_name p {
+  color: rgb(172, 136, 108);
+  font-family: "Alegreya-Bold";
+}
+.page2contetLeft_content p {
+  color: #56534c;
+  font-family: ProximaNova-Regular;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 10px;
+}
+.page2contetLeft_content {
+  width: 90%;
+  padding-top: 25px;
+}
+.page2contetLeft_sheffcook {
+  font-size: 24px;
+  font-family: Alegreya-Bold;
+  color: #56534c;
+  padding-top: 25px;
+}
+.page2contetLeft_sheff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+.page2contetLeft_sheff img {
+  width: 107px;
+  height: 95px;
+  border-radius: 50%;
+  border: white solid 2px;
+  margin: 25px;
+}
+.page2contetLeft_phrase {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  width: 80%;
+}
+.page2contetLeft_sheff h1 {
+  font-size: 24px;
+  border-top: solid #d7d5ca 1px;
+  border-bottom: solid #d7d5ca 1px;
+  font-family: Alegreya-Regular;
+  color: #56534c;
+}
+.page2contetLeft_phrase_p1,
+.page2contetLeft_phrase_p3 {
+  font-size: 65px;
+}
+.page2contetLeft_phrase_p2 {
+  font-size: 30px;
+  font-family: scriptina;
+  line-height: 130%;
+  text-align: center;
+}
+.page2contetLeft_phrase_p3 {
+  position: relative;
+}
+.page2contetLeft_phrase_p3 p {
+  position: absolute;
+  bottom: 0;
+}
+.page2contentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page2contentRight_photo1,
+.page2contentRight_photo2 {
+  display: flex;
+}
+.page2contentRight_photo1-1,
+.page2contentRight_photo2-1 {
+  width: 20vw;
+  height: 20vw;
+  padding: 5px;
+}
+.page2contentRight_photo1-1 img,
+.page2contentRight_photo2-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  outline: 4px solid #ffff;
+  outline-offset: -10px;
+  overflow: hidden;
+}
+.vektor-object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vektor-object_img img {
+  width: 20vw;
+  height: auto;
+}
+
+.vektor-object_img,
+.vektor-object_content {
+  position: absolute;
+  opacity: 0.9;
+  text-align: center;
+  font-family: Alegreya-Regular;
+  color: #c9b176;
+  font-size: 80%;
+}
+.page3main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("/Uzduotis/img/Page3/page3cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page3content {
+  display: flex;
+  width: 75%;
+  height: 70%;
+  position: relative;
+}
+
+.page3content_img {
+  display: flex;
+  width: 40%;
+  flex-grow: 1;
+}
+.page3content_favourite {
+  display: flex;
+  width: 60%;
+  background: rgb(255, 255, 255);
+  background-image: url(/Uzduotis/img/Page3/Vektor-millhouse.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page3content_img img {
+  object-fit: cover;
+  width: 100%;
+}
+.page3content_favourite_img img {
+  width: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+.page3content_favourite_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.page3content_favourite_img div {
+  border: 3px #d8bba3 solid;
+  border-radius: 40%;
+  padding: 10px;
+  color: #56534c;
+  font-weight: bold;
+}
+.page3content_favourite_name,
+.page3content_favourite_text {
+  height: 30%;
+}
+.page3content_favourite_name {
+  font-size: 28px;
+  font-family: Alegreya-Bold;
+  color: #56534c;
+}
+.page3content_favourite_text {
+  color: #56534c;
+  text-align: center;
+}
+.page3time_card {
+  width: 20%;
+  height: 40%;
+  background: white;
+  position: absolute;
+  right: -12%;
+  top: -6%;
+  background-image: url(/Uzduotis/img/Page3/Vektor.png);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page3time_card h1 {
+  color: rgb(170, 134, 106);
+  font-size: 120%;
+  padding: 20px;
+}
+.page3time_card h2 {
+  color: rgb(223, 198, 145);
+  font-size: 500%;
+}
+.page3time_card h3 {
+  font-size: 150%;
+}
+.page4main {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url("/Uzduotis/img//Page4/page4cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 45%;
+  padding-left: 10%;
+}
+.page4content {
+  text-align: center;
+  width: 50%;
+  flex-grow: 1;
+}
+.page4content1 {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 10%;
+}
+.menu h1 {
+  font-family: ProximaNova-Regular;
+  color: white;
+  padding-top: 20px;
+}
+.menu p {
+  color: rgb(149, 160, 151);
+  font-family: ProximaNova-Regular;
+}
+.menu h2 {
+  color: #dfc691;
+  font-family: Alegreya-Regular;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.dishTime h1 {
+  color: white;
+  font-family: Alegreya-Bold;
+  font-size: 70px;
+  margin-bottom: -15px;
+}
+.dishTime p {
+  color: rgb(170, 144, 136);
+}
+.miniPage1 {
+  position: absolute;
+  width: 75%;
+  height: 95%;
+  background: rgb(243, 241, 233);
+  font-size: 44px;
+  text-align: center;
+  z-index: 3;
+  outline: 2px dashed #9e9c93;
+  outline-offset: -15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-image: url(/Uzduotis/img/Page4/Vektor-minipage.png);
+  background-repeat: no-repeat;
+  background-position: 900% 110%;
+}
+.miniPage2 {
+  width: 70%;
+  height: 87%;
+  background: rgb(243, 241, 233);
+  z-index: 2;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 30px;
+  outline: 2px dashed #9e9c93;
+  outline-offset: -15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.miniPage3 {
+  width: 64%;
+  height: 81%;
+  background: rgb(243, 241, 233);
+  z-index: 1;
+  position: absolute;
+  margin-left: 155px;
+  margin-top: 50px;
+  outline: 2px dashed #9e9c93;
+  outline-offset: -15px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.miniPage1_age {
+  display: flex;
+}
+.est h1,
+.age h1 {
+  font-size: 20px;
+}
+.est,
+.age {
+  width: 50%;
+  padding-top: 60px;
+}
+.miniPage1_headImg_img2 {
+  position: absolute;
+  left: 43.6%;
+  top: 6%;
+  background: rgb(243, 241, 233);
+  padding: 8px;
+  border-radius: 50%;
+}
+.miniPage1_headImg {
+  position: relative;
+}
+.title h1 {
+  font-size: 40px;
+  font-family: Alegreya-Bold;
+  color: #56534c;
+}
+.miniPage1_text p {
+  color: #56534c;
+  font-size: 20px;
+  padding-top: 10%;
+}
+.miniPage1_button {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 5px 40px 5px 40px;
+  background: transparent;
+  border-color: #9e9c93;
+  color: #a47d5e;
+}
+.page5main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgb(243, 241, 233);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  text-align: center;
+}
+.page5main_headImg {
+  width: 60%;
+  height: 15vh;
+  text-align: center;
+  position: relative;
+}
+.page5main_content {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5main_content_left {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5main_content_right {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5main_content_left_dish img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: 10%;
+}
+.page5main_content_left_dish h1 {
+  font-family: Alegreya-Bold;
+  color: #a47d5e;
+  font-size: 20px;
+}
+.page5main_content_left_dish p {
+  color: #56534c;
+}
+.page5main_content_right_img {
+  width: 85%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page5main_content_right_img_1 {
+  background-image: url(/Uzduotis/img/Page5/page5img.png);
+  width: 90%;
+  height: 90%;
+  position: relative;
+  border: white 10px solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.recipeButton {
+  background: white;
+  padding: 17px 23px 17px 23px;
+  border: 2px #dfc691 dashed;
+  position: absolute;
+  bottom: -5%;
+  left: -5%;
+}
+.dish_recipe_rightBar div {
+  width: 160px;
+  height: 160px;
+  background: rgb(255, 255, 255, 0.8);
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: auto;
+}
+.dish_recipe_rightBar {
+  position: absolute;
+  top: -7%;
+  right: -1%;
+}
+.dish_recipe_rightBar h1 {
+  color: rgb(164, 125, 93);
+  font-size: 20px;
+  margin: 15px;
+}
+.dish_recipe_rightBar h2 {
+  color: rgb(85, 83, 76);
+  font-size: 60px;
+}
+.dish_recipe_rightBar p {
+  color: rgb(151, 146, 132);
+  font-size: 17px;
+  margin: 15px;
+}
+span {
+  color: rgb(177, 145, 117);
+  font-size: 15px;
+}
+.page5main_headImg h1 {
+  color: rgb(85, 83, 76);
+  left: 32%;
+  top: 60%;
+}
+.page5main_headImg img {
+  width: 70%;
+  opacity: 0.4;
+}
+footer {
+  width: 100%;
+  height: 20vh;
+  background: rgb(243, 241, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerLefttMenu,
+.footerRightMenu {
+  display: flex;
+  margin: 10px;
+  border-top: #c2beba 2px solid;
+  border-bottom: #c2beba 2px solid;
+}
+.footerLefttMenu p,
+.footerRightMenu p {
+  margin: 20px;
+  color: #56534c;
+  font-family: Alegreya-Regular;
+  font-size: 20px;
+}
+.footerLogo {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: scriptina;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* @media screen and (max-width: 800px) {
+  .page2main {
+    height: 100%;
+  }
+  .page2content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .page3content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .page3content_img,
+  .page3content_favourite {
+    width: 100%;
+  }
+  .page3content_favourite {
+    height: 80%;
+  }
+  .page4main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .page3time_card {
+    right: 0%;
+    top: 0%;
+    height: 27%;
+    width: 31%;
+  }
+  .page4content1 {
+    height: 50%;
+    width: 80%;
+  }
+  .page5main_content {
+    flex-direction: column;
+  }
+  .page5main_headImg h1 {
+    text-align: center;
+  }
+  .dish_recipe_rightBar div {
+    width: 40vw;
+    height: auto;
+  }
+} */
